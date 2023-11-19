@@ -1,0 +1,20 @@
+.image-column {
+			max-width: 700px;
+			margin:  auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px 0;
+        }
+
+        .image-column img {
+            max-width: 90%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+        
+
+        .image-column img:hover {
+            transform: scale(1.1); 
+            cursor: pointer;
+        }
